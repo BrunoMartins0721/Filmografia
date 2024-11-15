@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "logo";
+    src: url(../fonts/BodoniModa-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family: "regular";
+    src: url(../fonts/CroissantOne-Regular.ttf);
+}
+@font-face {
+    font-family: "bold";
+    src: url(../fonts/Solway-ExtraBold.ttf);
+}

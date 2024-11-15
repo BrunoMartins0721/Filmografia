@@ -1,0 +1,93 @@
+html {
+    font-size: 16px;
+}
+
+body{
+    margin: 0;
+}
+header{
+    background-color: var(--header-color);
+    padding: 30px 0;
+}
+header h1{
+    text-align: center;
+    font-family: "logo";
+    color: #fff;
+    font-size: 3rem;
+    text-shadow: -5px -5px 8px #000;
+}
+
+
+#main{
+    display: flex;
+}
+
+#menu{
+    width: 10%;
+    background-color: var(--menu-color);
+    color: rgb(2, 3, 17);
+    padding: 40px 20px;
+}
+#menu span{
+    font-family: "bold";
+    font-size: 1.5rem;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+#menu li{
+    font-family: "regular";
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#menu li:hover {
+    color: rgba(16, 122, 48, 0.747);
+}
+
+#content{
+    width: 70%;
+    padding: 30px 20px;
+    background-color: var(--contet-color);
+}
+
+#content-title{
+    font-family: "bold";
+    text-align: center;
+    font-size: 2rem;
+}
+
+.movie-card{
+    background-color: var(--movie-card-color);
+    border-radius: 40px;
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    padding: 40px;
+}
+
+.movie-card img{
+    width: 40%;
+}
+
+.movie-card span{
+    width: 50%;
+    padding: 0 20px;
+    font-family: "regular";
+    font-size: 1rem;
+}
+
+footer {
+    background-color: var(--footer-color);
+    padding: 50px 20px;
+}
+
+footer span{
+    color: #fff;
+    font-family: "bold";
+    font-size: 1rem;
+}
